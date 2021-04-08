@@ -1,0 +1,24 @@
+.navbar-brand{
+    margin-left:3%;
+    margin-right:25%;
+}
+.nav-item{
+    padding-right:40%;
+}
+.profile{
+    float:left;
+    display:inline-block;
+}
+.profileimage{
+    margin-top:5%;
+    margin-left:4%;
+    float:left;
+    width: 20%;
+    display:block;
+}
+
+.profiledes{
+    margin-top:5%;
+    margin-right:10%;
+    padding-left:10%;
+}
