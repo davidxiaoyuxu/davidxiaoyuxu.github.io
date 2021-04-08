@@ -7,8 +7,34 @@
 <head>
     <link rel="stylesheet" href="index.css">
 </head>
+<script type="text/javascript">
+
+  function myFunction(){
+    console.log(password);
+    if (document.getElementById("password").value == "ilovepig"){
+      console.log("get");
+      document.getElementById("container").remove();
+      document.getElementsByClassName("navbar")[0].style.visibility = "visible";
+      document.getElementsByClassName("profile")[0].style.visibility = "visible";
+    }else{
+      alert("ByeBye");
+    }
+  }
+</script>
+
 <body>
 
+
+
+  <div id="container">
+ 
+
+      <label for="psw">Password</label>
+      <input type="password" id="password" name="psw" required>
+      
+      <input onClick = "myFunction()" type="submit" value="Submit">
+
+  </div>
 <!-- Navbar (sit on top) -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
