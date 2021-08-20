@@ -6,27 +6,29 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 <head>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<script type="text/javascript">
+
+<!-- <script type="text/javascript">
 
   function myFunction(){
     console.log(password);
     if (document.getElementById("password").value == "ilovepig"){
       console.log("get");
       document.getElementById("container").remove();
-      document.getElementsByClassName("navbar")[0].style.visibility = "visible";
-      document.getElementsByClassName("profile")[0].style.visibility = "visible";
+      document.getElementsByClassName("content")[0].style.visibility = "visible";
     }else{
       alert("ByeBye");
     }
   }
-</script>
+</script> -->
 
 <body>
 
+  
 
 
-  <div id="container">
+  <!-- <div id="container">
  
 
       <label for="psw">Password</label>
@@ -34,57 +36,45 @@
       
       <input onClick = "myFunction()" type="submit" value="Submit">
 
-  </div>
+  </div> -->
 <!-- Navbar (sit on top) -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">David Xiaoyu Xu</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">ABOUT</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="research.html">RESEARCH</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="teaching.html">TEACHING</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="cv.html">CV</a>
-          </li>
-   
+<div class="content">
+<div class="title">
+  <h2>David Xiaoyu Xu</h2>
+</div>
+<div>
+<br>
+<hr>
+<ul class="nav">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="research.html">Research</a></li>
+  <li><a href="teaching.html">Teaching</a></li>
+</ul>
+<hr>
+</div>
 
-
-        </ul>
-      </div>
-    </div>
-  </nav>
   <div class="profile">
     <span class="profileimage">
-        <img src="download.jpeg" width="400" height="400" />
+        <img src="headshot.jpg" width="300" height="350" />
     </span>
     <span class = "profiledes" style="float:right;width: 50%;">
         <p style="float:right; display:block;">
-            Currently, I'm an associate professor of finance.Currently, I'm an associate professor of finance
-            Currently, I'm an associate professor of financeCurrently, I'm an associate professor of financeCurrently, I'm an associate professor of finance
-            Currently, I'm an associate professor of financeCurrently, I'm an associate professor of finance
-            Currently, I'm an associate professor of financeCurrently, I'm an associate professor of finance
-            Currently, I'm an associate professor of financeCurrently, I'm an associate professor of finance
-            Currently, I'm an associate professor of financeCurrently, I'm an associate professor of finance
-            Currently, I'm an associate professor of financeCurrently, I'm an associate professor of finance
-            Currently, I'm an associate professor of financeCurrently, I'm an associate professor of finance
-            Currently, I'm an associate professor of financeCurrently, I'm an associate professor of finance
-            Currently, I'm an associate professor of financeCurrently, I'm an associate professor of finance
-            Currently, I'm an associate professor of finance
-            <a href="cv.html">cv</a>
+          Welcome to my website! I am a PhD Candidate in Finance at the University of Texas at Austin, McCombs School of Business. 
+          </p>
+          <p>
+          Contact: 
+          <br>
+          xyxu@mccombs.utexas.edu
+          <br>
+          <i class="fa fa-github" style="font-size:20px"></i>
+          <i class="fa fa-linkedin" style="font-size:20px"></i>
+          <i class="fa fa-google" style="font-size:20px"></i>
+          <i class="fa fa-facebook" style="font-size:20px"></i>
+
         </p>
     </span>
 </div>
 
-
+</div>
 </body>
 </html> 

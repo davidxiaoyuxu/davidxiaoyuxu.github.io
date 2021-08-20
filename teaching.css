@@ -1,0 +1,21 @@
+.teaching{
+    margin-top:5%;
+}
+
+.teaching ul{
+   margin:auto;
+   width: 50%;
+   list-style-type: none;
+}
+
+.teaching li{
+    font-family: "Times New Roman", Times, serif;
+   font-size:12pt;
+}
+ul hr{
+
+    width:50%;
+
+
+
+}
