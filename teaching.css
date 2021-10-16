@@ -8,6 +8,10 @@
    list-style-type: none;
 }
 
+h6{
+    color:#bf5700;
+    font-weight: bold;
+}
 .teaching li{
     font-family: "Times New Roman", Times, serif;
    font-size:12pt;
@@ -15,7 +19,5 @@
 ul hr{
 
     width:50%;
-
-
 
 }

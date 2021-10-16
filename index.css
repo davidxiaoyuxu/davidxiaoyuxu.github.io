@@ -3,11 +3,18 @@
 } */
 .title{
     margin-top:5%;
+    
+}
+.mb{
+    margin-top:-5%;
+    margin-left:3%;
 }
 h2{
+    /* margin-top:-1%; */
     text-align:center;
-    color:#1E90FF;
-    font-family: "Times New Roman", Times, serif;
+    /* color:#1E90FF; */
+    /* margin-left:5%; */
+    /* font-family: "Times New Roman", Times, serif; */
     font-weight: bold;
     font-size:30pt;
 }
@@ -22,24 +29,26 @@ h2{
 .nav a{
     display:inline-block;
     text-decoration:none;
-    padding:10px;
-    padding-right:20px;
-    color:#87CEFA;
-    font-family: "Times New Roman", Times, serif;
+    padding:15px;
+    padding-right:40px;
+    color:#bf5700;
+    /* font-family: "Times New Roman", Times, serif; */
 }
 .nav a:hover {
-    color:#1E90FF;
+    color:#bf5700;
     font-weight: bold;
 }
-i{  margin-top:2%;
-    margin-right:1%;
-    color:#87CEFA;
+i{  margin-top:7%;
+    margin-right:3%;
+    color:#bf5700;
+    opacity:50%;
+
 }
 
 hr{
     margin-top:10%;
     width:50%;
-    color:#87CEFA;
+    color:#bf5700;
     margin:auto;
 }
 h6{
@@ -60,18 +69,24 @@ p{
 }
 .profileimage{
     margin-top:5%;
-    margin-left:15%;
+    margin-left:25%;
+    margin-bottom:10%;
     float:left;
     width: 20%;
-    display:block;
+    /* display:block; */
 }
 
 .profiledes{
+    float:right;
     margin-top:5%;
-    margin-right:10%;
-    padding-left:10%;
+    margin-right:22%;
+    width: 30%;
+    /* padding-left:4%; */
 }
 
+.social{
+    font-family: 'Times New Roman', Times, serif;
+}
 /* .navbar{
     visibility: hidden;
 }
