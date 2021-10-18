@@ -1,12 +1,12 @@
 /* .content{
     visibility: hidden !important;
 } */
-.title{
-    margin-top:5%;
-    
-}
-.mb{
+/* .title{
     margin-top:-5%;
+    
+} */
+.mb{
+    /* margin-top:-5%; */
     margin-left:3%;
 }
 h2{
@@ -63,12 +63,12 @@ p{
 }
 
 .profile{
-  
+    margin-top:2%;
     float:left;
     display:inline-block;
 }
 .profileimage{
-    margin-top:5%;
+    /* margin-top:5%; */
     margin-left:25%;
     margin-bottom:10%;
     float:left;
@@ -78,7 +78,7 @@ p{
 
 .profiledes{
     float:right;
-    margin-top:5%;
+    /* margin-top:5%; */
     margin-right:22%;
     width: 30%;
     /* padding-left:4%; */
@@ -117,4 +117,23 @@ input {
     padding: 20px;
     width:80%;
     margin:10%;
+  }
+  @media only screen and (max-width: 1300px) {
+    .profileimage{
+        /* margin-top:5%; */
+        margin-left:25%;
+        margin-bottom:2%;
+        float:none;
+        width: 20%;
+        display:block;
+    }
+    .profiledes{
+        float:none;
+        /* margin-top:5%; */
+        /* visibility:hidden; */
+        margin-left:22%;
+        width: 50%;
+        display:block;
+        /* padding-left:4%; */
+    }
   }

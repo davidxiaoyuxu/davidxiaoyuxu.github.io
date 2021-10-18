@@ -2,9 +2,9 @@
 .mb-3{
     margin-left:3%;
     margin-right:5%;
-    margin-top:3%;
+    margin-top:2%;
     width:100%;
-    height:220px;
+    height:20%;
 }
 
 .research{
@@ -17,13 +17,19 @@
 }
 .card-title:hover {
     color:#bf5700;
-    font-weight:bolder;
+    /* font-weight:bolder; */
 }
 h5{
     font-family: "Times New Roman", Times, serif;
 }
 
+h6{
+    font-family: "Times New Roman", Times, serif;
+}
+
+
 .card-title2:hover {
     color:#bf5700;
-    font-weight:bolder;
+    /* font-weight:bolder; */
 }
+

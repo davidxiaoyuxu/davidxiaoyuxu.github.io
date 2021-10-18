@@ -14,10 +14,15 @@ h6{
 }
 .teaching li{
     font-family: "Times New Roman", Times, serif;
-   font-size:12pt;
+    font-size:13pt;
 }
 ul hr{
 
     width:50%;
 
 }
+
+
+  .teaching{
+      margin-top:2%;
+  }
