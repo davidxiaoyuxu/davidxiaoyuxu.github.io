@@ -10,13 +10,29 @@
 .research{
     margin-top:2%;
 }
-
+.col-md-2{
+    width:40%;
+    height:auto;
+    display:block;
+}
+/* .paperimg{
+    width:20%;
+    height:20%;
+} */
+.col-md-8{
+    width:60%;
+}
 .papertitle{
     color:#bf5700;
     text-decoration: underline #bf5700;
+    
 }
-.card-title:hover {
+.papertitle:hover{
     color:#bf5700;
+}
+
+.card-title:hover {
+    /* color:#bf5700; */
     /* font-weight:bolder; */
 }
 h5{
