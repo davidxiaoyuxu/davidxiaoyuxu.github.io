@@ -11,16 +11,19 @@
     margin-top:2%;
 }
 .col-md-2{
-    width:40%;
-    height:auto;
+    margin-left:5%;
+    width:30%;
     display:block;
 }
-/* .paperimg{
+.card-body{
+    padding:0;
+}
+/* .paperimgs{
     width:20%;
     height:20%;
 } */
 .col-md-8{
-    width:60%;
+    width:50%;
 }
 .papertitle{
     color:#bf5700;
