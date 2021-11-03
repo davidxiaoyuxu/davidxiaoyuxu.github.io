@@ -1,30 +1,24 @@
-
 .mb-3{
-    margin-left:3%;
-    margin-right:5%;
     margin-top:2%;
+    /* margin-left:3%;
+    margin-right:5%;
     width:100%;
-    height:30%;
+    height:30%; */
+}
+.col-md-2{
+    /* border: 1px green solid; */
+}
+.col-md-5{
+    /* border: 1px green solid; */
 }
 
 .research{
     margin-top:2%;
 }
-.col-md-2{
-    margin-left:5%;
-    margin-right:2% !important;
-    width:30%;
-    display:block;
-}
 .card-body{
     padding:0;
-}
-/* .paperimgs{
-    width:20%;
-    height:20%;
-} */
-.col-md-8{
-    width:50%;
+    margin-left:5%;
+    margin-right:3%;
 }
 .papertitle{
     color:#bf5700;
@@ -52,4 +46,3 @@ h6{
     color:#bf5700;
     /* font-weight:bolder; */
 }
-

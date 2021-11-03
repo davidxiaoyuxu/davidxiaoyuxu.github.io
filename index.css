@@ -18,7 +18,7 @@ h2{
 }
 .nav{
     display: flex;
-  justify-content: center;
+    justify-content: center;
     text-align:center;
 }
 .nav li{
@@ -61,26 +61,25 @@ p{
 }
 
 .profile{
+    /* border: 1px green solid; */
     margin-top:2%;
-    float:left;
-    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width:860px;
+
 }
 .profileimage{
-    /* margin-top:5%; */
-    margin-left:25%;
-    margin-bottom:10%;
+    /* border: 1px green solid; */
     float:left;
-    width: 20%;
-    /* display:block; */
+    width:340px;
 }
 
 .profiledes{
-    float:right;
-    /* margin-top:5%; */
-    margin-right:22%;
-    width: 30%;
-    /* padding-left:4%; */
+    /* border: 1px green solid; */
+    float:left;
+    width:520px;
 }
+
 
 .social{
     font-family: 'Times New Roman', Times, serif;
