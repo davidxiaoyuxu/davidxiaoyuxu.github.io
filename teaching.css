@@ -1,5 +1,5 @@
 .teaching{
-    margin-top:5%;
+margin-top:15%;
 }
 
 .teaching ul{
@@ -9,18 +9,27 @@
 }
 
 h6{
-    color:#bf5700;
-    font-weight: bold;
+    text-decoration:none;
+    font-size: 13px;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-right:50px;
+    color:black;
+    font-family:'proxima-nova', sans-serif;
+    font-weight:600;
 }
 .teaching li{
-    font-family: "Times New Roman", Times, serif;
-    font-size:13pt;
-}
-ul hr{
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.8em;
+    font-size: 14px;
+    text-transform: none;
 
-    width:50%;
 
 }
+
 
 
 .teaching{

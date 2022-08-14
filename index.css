@@ -3,18 +3,23 @@
     margin-top:-5%;
     
 } */
-.mb{
-    /* margin-top:-5%; */
-    margin-left:3%;
+.cox{
+    margin-top:2%;
+    margin-left:5%;
+    margin-bottom:3%;
 }
 h2{
     /* margin-top:-1%; */
     text-align:center;
     /* color:#1E90FF; */
     /* margin-left:5%; */
-    /* font-family: "Times New Roman", Times, serif; */
-    font-weight: bold;
-    font-size:30pt;
+    font-family: "garamond-premier-pro-display";
+    font-style: normal;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    line-height: 1.2em;
+    letter-spacing: 1px;
 }
 .nav{
     display: flex;
@@ -27,17 +32,27 @@ h2{
 .nav a{
     display:inline-block;
     text-decoration:none;
-    padding:15px;
-    padding-right:40px;
-    color:#bf5700;
-    /* font-family: "Times New Roman", Times, serif; */
+    font-size: 13px;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-right:50px;
+    color:#354CA1;
+    font-family:'proxima-nova', sans-serif;
+    font-weight:600;
 }
+
+
+ 
+
+
 .nav a:hover {
-    color:#bf5700;
+    color:#CC0035;
     font-weight: bold;
+    font-size: 15px;
+
 }
 i{  margin-top:7%;
-    margin-right:3%;
     color:#bf5700;
     opacity:50%;
 
@@ -45,19 +60,24 @@ i{  margin-top:7%;
 
 hr{
     margin-top:10%;
-    width:50%;
-    color:#bf5700;
+    width:30%;
+    color:#354CA1;
     margin:auto;
+    opacity:50%;
 }
 h6{
-    font-size:13pt;
-    font-family: "Times New Roman", Times, serif;
+    font-size:10pt;
+    font-family: 'proxima-nova', sans-serif;
     line-height: 1.6;
 }
 p{  
     font-size:12pt;
     font-family: "Times New Roman", Times, serif;
 
+}
+.card-body {
+    margin-top:15%;
+    margin-left:10%;
 }
 
 .profile{
@@ -118,7 +138,7 @@ input {
   @media only screen and (max-width: 1300px) {
     .profileimage{
         /* margin-top:5%; */
-        margin-left:25%;
+        margin-left:50%;
         margin-bottom:2%;
         float:none;
         width: 20%;

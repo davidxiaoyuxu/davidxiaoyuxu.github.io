@@ -10,39 +10,37 @@
 }
 .col-md-5{
     /* border: 1px green solid; */
+    padding-left:5%;
 }
 
 .research{
-    margin-top:2%;
+    margin-top:5%;
 }
 .card-body{
     padding:0;
+    margin-top:0;
     margin-left:5%;
     margin-right:3%;
 }
-.papertitle{
-    color:#bf5700;
-    text-decoration: underline #bf5700;
-    
-}
-.papertitle:hover{
-    color:#bf5700;
-}
 
-.card-title:hover {
-    /* color:#bf5700; */
-    /* font-weight:bolder; */
-}
+
+
+
 h5{
     font-family: Lato, sans-serif;
 }
 
-h6{
-    font-family: "Times New Roman", Times, serif;
+p{
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.8em;
+    font-size: 14px;
+    text-transform: none;
+
 }
 
 
 .card-title2:hover {
-    color:#bf5700;
-    /* font-weight:bolder; */
+    opacity:80%;
 }
