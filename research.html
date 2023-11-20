@@ -16,6 +16,10 @@
           </script>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="research.css">
+    <!-- MathJax Script -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 </head>
 <body>
  <!-- Navbar (sit on top) -->
@@ -49,7 +53,7 @@
       <div class="col-md-2"> 
       </div>
       <div class="col-md-3"> 
-          <img src="picture/bsheet.png" style="width:105%;"/>
+          <img src="picture/bsheet.png" style="padding-left:5%; width:105%;"/>
           <!-- <font face="Verdana" size="2px"> Replacing deteriorated assets in a secondary market protects senior debt but hurts equity, 
             especially when others also promised to do so when issuing big AAA tranches. </font>  -->
       </div>
@@ -57,19 +61,12 @@
         <div class="card-body">
           <p class="card-title"><strong><a class="papertitle card-title2" style="color:#354CA1;text-decoration:none;" href="paper/jmp.pdf"> 
             Portfolio Dynamics and the Supply of Safe Securities </a><a class="papertitle card-title2" style="color:#354CA1;text-decoration:none;" href="paper/jmp_appendix.pdf">[Internet Appendix]</a>
-            <a class="papertitle card-title2" style="color:#354CA1;text-decoration:none;" href="paper/Slides_20230505_OFR.pdf">[Slides]</a></strong>
+            <!-- <a class="papertitle card-title2" style="color:#354CA1;text-decoration:none;" href="paper/Slides_20230505_OFR.pdf">[Slides]</a> --> </strong>
           </p>
             <p style="font-style: italic;"> QCGBF Young Economist Prize, Finalist <br> FMCG Best Paper Award in Banking/Financial Institution </p>
-          <p style="text-align:justify"class="card-text"> <!-- <b>Abstract</b>: --> 
-            <!-- This paper develops an equilibrium model in which collateralized loan obligations (CLOs) issue safe and risky securities backed by dynamic portfolios of leveraged loans.
-            Consistent with empirical evidence, the endogenous market structure consists of two groups of financial intermediaries: CLOs and lenders that do not securitize loans.
-            Trading with non-securitized lenders allows CLOs to issue larger safe tranches ex ante but generates price pressure in downturns.
-            Since intermediaries do not internalize their effect on loan prices, there is excessive entry into operating CLOs, and the market underproduces safe assets. 
-            A recent regulation that reduced CLO entry could exacerbate the inefficiency. -->
-            Modern financial institutions create long-term safe debt by dynamically maintaining the quality of underlying portfolios:
-            they replace deteriorated assets in bad times, thereby avoiding extremely bad cash flow realizations. 
-            <!-- generating price pressure in secondary markets.  -->
-            This paper analyzes such dynamic collateral management in an equilibrium framework that endogenizes institutions' assets, liabilities, and secondary market trades. 
+          <p style="text-align:justify"class="card-text"> 
+            Modern institutions create long-term safe securities by dynamically replacing deteriorated assets in the underlying portfolios. 
+            This paper presents an equilibrium framework of dynamic collateral management that endogenizes institutions' assets, liabilities, and secondary market counterparties. 
           </p>
             <!--
               <p><em>Selected Presentations: Princeton Young Economist Forum, PhD Symposium on Financial Market Research
@@ -87,8 +84,56 @@
       <div class="col-md-2"> 
       </div>
       <div class="col-md-3">
-        <img src="picture/paper2.png" style="padding-left:2.6%; width:100%;"/>
-        <!-- <font face="Verdana" size="2px"> Abnormal returns when stock trading restarts. Don't forget that mutual fund investors are watching. </font>  -->
+        <img src="picture/flex_def.png" style="padding-right:0%; height: 105%; width:105%;"/>
+      </div>
+      <div class="col-md-5">
+        <div class="card-body">
+          <p><strong><a  class="papertitle card-title2" style="color:#354CA1;text-decoration:none;" 
+            href="paper/flex.pdf">
+            What Do Lead Banks Learn from Leveraged Loan Investors?</a></strong> (with Max Bruche and Ralf R. Meisenzahl)
+          </p>
+          <p style="text-align:justify" class="card-text">  <!--<b>Abstract</b>: -->
+            
+            In syndicated loan deals, lead banks often set price \(P=E[M\cdot C|\Omega]\) based on investor information \(\Omega\) revealed during bookbuilding. 
+            Literature suggests \(\Omega\) is at most about risk premium (\(M\)). 
+            We find that \(\Omega\), as reflected by "pricing flex" during bookbuilding, is also highly informative about future cash flows (\(C\)).   
+          </div>
+      </div>
+      <div class="col-md-2"> 
+      </div>
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <div class="row g-0">
+      <div class="col-md-2"> 
+      </div>
+      <div class="col-md-3">
+        <img src="picture/Baidu_search.png" style="padding-right:0%; height: 104%; width:104%;"/>
+      </div>
+      <div class="col-md-5">
+        <div class="card-body">
+          <p><strong><a  class="papertitle card-title2" style="color:#354CA1;text-decoration:none;" 
+            href="paper/LTF.pdf">
+            Liquidity Transformation and Information Production: An Analysis of Mutual Funds’ Frozen Holdings</a></strong> (with Clemens Sialm)
+          </p>
+          <p style="text-align:justify" class="card-text">  <!--<b>Abstract</b>: -->
+            Liquidity transformation provided by asset managers can increase investors' production of firm-specific information about highly illiquid assets - 
+            but only when the illiquid portfolio holdings are visible.  
+          </div>
+      </div>
+      <div class="col-md-2"> 
+      </div>
+    </div>
+  </div>
+
+
+  <div class="mb-3">
+    <div class="row g-0">
+      <div class="col-md-2"> 
+      </div>
+      <div class="col-md-3">
+        <img src="picture/abret_5d.png" style="padding-right:0%; width:100%;"/>
       </div>
       <div class="col-md-5">
         <div class="card-body">
@@ -98,15 +143,7 @@
           </p>
           <p style="font-style: italic;">Best Paper Award, 16th Conference on Asia-Pacific Financial Markets </p>
           <p style="text-align:justify" class="card-text">  <!--<b>Abstract</b>: -->
-            Shutting down trades of financial assets does not stop investors from producing information - at least when transformed liquidity is provided by financial intermediaries. 
-            Mutual fund investors react to mispriced fund shares when the fund's stock holdings experience prolonged trading suspension.
-            <!-- Trading suspension, a widely adopted regulatory rule, prevents information from being incorporated into stock prices.
-            Using a sample of 3,205 long-lasting suspension events between 2004-2018, we show that mutual funds holding suspended 
-            stocks generally fail to adjust for stale prices, generating stale net asset values (NAVs).
-            We find that investors exploit predictable fund performance that quickly realizes after trading resumes: 
-            flows positively respond to firm-specific news about suspended stocks in fund portfolios. Portfolio disclosure plays a key informational role in distorting flows.
-            Our findings suggest that regulatory interventions on trading activities can create negative externalities among mutual fund investors.
-            </p> -->
+            Intervening the trading of securities generates abnormal flows to mutual funds. 
             <!--
               <p><em>Selected Presentations: AFA Poster Session, CICF, CAFM</em></p>
             -->
@@ -122,7 +159,7 @@
       <div class="col-md-2"> 
       </div>
       <div class="col-md-3">
-        <img src="picture/SZSE_firms.png" style="margin-left:6%;margin-top:0%; width:90%; height:80%"/>
+        <img src="picture/SZSE_firms.png" style="margin-left:6%;margin-top:0%; width:95%; height:80%"/>
         <!-- <font face="Verdana" size="2px"> An empirical setting where acquiring private information can literally cost days. </font>  -->
       </div>
       <div class="col-md-5">
