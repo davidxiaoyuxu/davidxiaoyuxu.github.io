@@ -154,3 +154,76 @@ input {
         /* padding-left:4%; */
     }
   }
+
+  .ai-clean {
+    font-family: 'Exo 2', sans-serif !important;
+    font-size: 20px;
+    color: #B0BEC5; /* Light futuristic grey */
+    text-transform: uppercase;
+}
+
+@keyframes ai-glow {
+    0% { text-shadow: 0 0 5px #9000ff; }
+    50% { text-shadow: 0 0 15px #9000ff, 0 0 30px #9000ff; }
+    100% { text-shadow: 0 0 5px #9000ff; }
+}
+
+.ai-glow {
+    animation: ai-glow 1.5s infinite alternate;
+}
+
+
+.social-icons {
+    display: flex;
+    justify-content: left; /* Align with text */
+    align-items: center;
+    gap: 0.5rem; /* Space between icons */
+    margin-top: 10px;
+}
+
+/* Default size for SVG icons */
+.social-icons svg {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Ensuring Google Scholar image is the same size */
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Hover effect */
+.social-icons a:hover svg,
+.social-icons a:hover img {
+    transform: scale(1.1);
+}
+
+
+/* Ensuring icons are properly spaced */
+.social-icons {
+    display: flex;
+    gap: 0.5rem; /* Space between icons */
+}
+
+
+/* GitHub - Black */
+.social-icons a:nth-child(1) svg {
+    fill: #181717;
+}
+
+/* LinkedIn - Blue */
+.social-icons a:nth-child(2) svg {
+    fill: #0077b5;
+}
+
+/* Google Scholar - Official Blue */
+.social-icons a:nth-child(3) svg {
+    fill: #4285F4;
+}
+
+
+
+

@@ -1,46 +1,96 @@
-.mb-3{
-    margin-top:2%;
-    /* margin-left:3%;
-    margin-right:5%;
-    width:100%;
-    height:30%; */
-}
-.col-md-2{
-    /* border: 1px green solid; */
-}
-.col-md-5{
-    /* border: 1px green solid; */
-    padding-left:5%;
+/* Keep existing styles */
+.mb-3 {
+    margin-top: 2%;
 }
 
-.research{
-    margin-top:5%;
-}
-.card-body{
-    padding:0;
-    margin-top:0;
-    margin-left:5%;
-    margin-right:3%;
+.col-md-2 {}
+
+.col-md-5 {
+    padding-left: 5%;
 }
 
-
-
-
-h5{
-    font-family: Lato, sans-serif;
+/* Adjust image and text alignment */
+.research {
+    margin-top: 5%;
 }
 
-p{
+.card-body {
+    padding: 0;
+    margin-top: 0;
+    margin-left: 5%;
+    margin-right: 3%;
+}
+
+/* Preserve paragraph font */
+p {
     font-family: 'proxima-nova', sans-serif;
     font-weight: 400;
     font-style: normal;
     line-height: 1.8em;
     font-size: 14px;
     text-transform: none;
-
 }
 
-
+/* Preserve hover effect for paper titles */
 .card-title2:hover {
-    opacity:80%;
+    opacity: 80%;
 }
+
+/* Improved paper alignment */
+.paper-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-bottom: 40px;
+}
+
+.paper-image {
+    flex: 1;
+    max-width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paper-image img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.paper-content {
+    flex: 2;
+    text-align: left;
+    max-width: 65%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .paper-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .paper-image {
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .paper-content {
+        max-width: 100%;
+        text-align: left;
+    }
+}
+
+/* Uniform vertical spacing for each paper */
+.research .mb-3 {
+    margin-bottom: 5rem !important; /* or pick your favorite spacing */
+}
+
+/* Make image and text top-aligned within each row */
+.research .row.g-0 {
+    align-items: flex-start;
+}
+
