@@ -94,3 +94,8 @@ p {
     align-items: flex-start;
 }
 
+
+.journal {
+  font-style: italic;
+  font-weight: 700;
+}
