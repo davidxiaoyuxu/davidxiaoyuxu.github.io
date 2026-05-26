@@ -1,1 +1,25 @@
-theme: jekyll-theme-minimal
+title: David Xiaoyu Xu
+description: Assistant Professor of Finance, SMU Cox School of Business
+email: davidxu@smu.edu
+url: "https://davidxiaoyuxu.github.io"
+
+collections:
+  papers:
+    output: false
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - MD/
+  - README.md
+  - vendor/
+  - figure_scripts/
+  - CV.pdf~
