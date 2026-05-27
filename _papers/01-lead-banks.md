@@ -2,7 +2,7 @@
 order: 1
 section: working
 title: "What Do Lead Banks Learn from Leveraged Loan Investors?"
-url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4668027"
+paper_url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4668027"
 image: "picture/flex_def.png"
 authors:
   - name: Max Bruche

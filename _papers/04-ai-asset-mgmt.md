@@ -2,7 +2,7 @@
 order: 2
 section: working
 title: "The Growth and Performance of Artificial Intelligence in Asset Management"
-url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5638612"
+paper_url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5638612"
 image: "picture/ai_adv_disclosure.png"
 authors:
   - name: Shuang Chen

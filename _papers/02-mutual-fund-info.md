@@ -2,7 +2,7 @@
 order: 5
 section: working
 title: "Information Acquisition by Mutual Fund Investors: Evidence from Stock Trading Suspensions"
-url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5047094"
+paper_url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5047094"
 image: "picture/misprc_nav_exitret_obs.png"
 authors:
   - name: Clemens Sialm

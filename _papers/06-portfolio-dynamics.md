@@ -2,7 +2,7 @@
 order: 6
 section: publication
 title: "Portfolio Dynamics and the Supply of Safe Securities"
-url: "https://pubsonline.informs.org/doi/10.1287/mnsc.2024.07100"
+paper_url: "https://pubsonline.informs.org/doi/10.1287/mnsc.2024.07100"
 links:
   - label: "SSRN"
     url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5212536"

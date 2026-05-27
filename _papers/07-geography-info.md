@@ -2,7 +2,7 @@
 order: 7
 section: publication
 title: "The Geography of Information Acquisition"
-url: "https://www.cambridge.org/core/journals/journal-of-financial-and-quantitative-analysis/article/geography-of-information-acquisition/5171124198C467068FD56FF3C6E605A8"
+paper_url: "https://www.cambridge.org/core/journals/journal-of-financial-and-quantitative-analysis/article/geography-of-information-acquisition/5171124198C467068FD56FF3C6E605A8"
 links:
   - label: "SSRN"
     url: "https://papers.ssrn.com/abstract=3371978"

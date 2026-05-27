@@ -2,7 +2,7 @@
 order: 3
 section: working
 title: "Human Capital and Local Credit Supply: Evidence from the Mortgage Industry"
-url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5467930"
+paper_url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5467930"
 image: "picture/dfw_branches.png"
 authors:
   - name: Ruidi Huang

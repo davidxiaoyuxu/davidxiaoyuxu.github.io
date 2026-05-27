@@ -4,7 +4,7 @@
   </div>
   <div class="paper-content">
     <h3 class="paper-title">
-      <a class="paper-title-link" href="{{ include.paper.url }}">{{ include.paper.title }}</a>{% if include.paper.authors and include.paper.authors.size > 0 %} <span class="paper-authors">(with {% assign n = include.paper.authors.size %}{% for a in include.paper.authors -%}{%- if forloop.first == false -%}{%- if forloop.last and n > 1 -%}{%- if n > 2 %}, and {% else %} and {% endif -%}{%- else -%}, {% endif -%}{%- endif -%}{%- if a.url %}<a href="{{ a.url }}">{{ a.name }}</a>{% else %}{{ a.name }}{% endif -%}{%- endfor %})</span>{% endif %}
+      <a class="paper-title-link" href="{{ include.paper.paper_url }}">{{ include.paper.title }}</a>{% if include.paper.authors and include.paper.authors.size > 0 %} <span class="paper-authors">(with {% assign n = include.paper.authors.size %}{% for a in include.paper.authors -%}{%- if forloop.first == false -%}{%- if forloop.last and n > 1 -%}{%- if n > 2 %}, and {% else %} and {% endif -%}{%- else -%}, {% endif -%}{%- endif -%}{%- if a.url %}<a href="{{ a.url }}">{{ a.name }}</a>{% else %}{{ a.name }}{% endif -%}{%- endfor %})</span>{% endif %}
     </h3>
     {% if include.paper.links and include.paper.links.size > 0 %}
       <div class="paper-actions">

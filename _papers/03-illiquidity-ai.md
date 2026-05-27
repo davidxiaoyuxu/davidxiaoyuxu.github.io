@@ -2,7 +2,7 @@
 order: 4
 section: working
 title: "Illiquidity Meets Intelligence: AI-Driven Price Discovery in Corporate Bonds"
-url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5297667"
+paper_url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5297667"
 image: "picture/ai_price_discovery.png"
 authors:
   - name: Stacey Jacobsen
