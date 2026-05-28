@@ -2,6 +2,7 @@
 order: 0
 section: working
 title: "Credit Commitments by Nonbanks"
+paper_url: "paper/credit_commitments_by_nonbanks.pdf"
 image: "picture/bdc_agg_qtr.png"
 authors:
   - name: Jing Huang
