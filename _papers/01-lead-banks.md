@@ -3,6 +3,9 @@ order: 1
 section: working
 title: "What Do Lead Banks Learn from Leveraged Loan Investors?"
 paper_url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4668027"
+links:
+  - label: "Chicago Fed WP 2023-44"
+    url: "https://www.chicagofed.org/publications/working-papers/2023/2023-44"
 image: "picture/flex_def.png"
 authors:
   - name: Max Bruche
