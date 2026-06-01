@@ -2,7 +2,10 @@
 order: 0
 section: working
 title: "Credit Commitments by Nonbanks"
-paper_url: "paper/credit_commitments_by_nonbanks.pdf"
+paper_url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6843664"
+links:
+  - label: "NBER WP #35273"
+    url: "https://www.nber.org/papers/w35273"
 image: "picture/bdc_agg_qtr.png"
 authors:
   - name: Jing Huang
