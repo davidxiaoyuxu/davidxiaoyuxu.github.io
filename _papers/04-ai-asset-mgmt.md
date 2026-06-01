@@ -3,6 +3,9 @@ order: 2
 section: working
 title: "The Growth and Performance of Artificial Intelligence in Asset Management"
 paper_url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5638612"
+links:
+  - label: "NBER WP #35273"
+    url: "https://www.nber.org/papers/w35273"
 image: "picture/ai_adv_disclosure.png"
 authors:
   - name: Shuang Chen
