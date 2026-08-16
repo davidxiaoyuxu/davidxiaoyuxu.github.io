@@ -1,5 +1,5 @@
 ---
-order: 1
+order: 4
 section: working
 title: "What Do Lead Banks Learn from Leveraged Loan Investors?"
 paper_url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4668027"
@@ -12,6 +12,8 @@ authors:
     url: "https://www.maxbruche.net/"
   - name: Ralf Meisenzahl
     url: "http://www.ralfmeisenzahl.com/"
+journal: "Review of Financial Studies"
+journal_status: "R&R"
 presentations:
   - "ECB-NY Fed Conference on Nonbank Financial Institutions"
   - "BIS-CEPR-Gerzensee-SFI Conference on Financial Intermediation"
